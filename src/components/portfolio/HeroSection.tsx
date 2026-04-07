@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 const HeroSection = () => {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      {/* Subtle grid background */}
       <div className="absolute inset-0 bg-[linear-gradient(hsl(var(--border))_1px,transparent_1px),linear-gradient(90deg,hsl(var(--border))_1px,transparent_1px)] bg-[size:64px_64px] opacity-40" />
       
       <div className="section-container text-center relative z-10">
@@ -23,7 +22,7 @@ const HeroSection = () => {
         </p>
         
         <p className="text-muted-foreground max-w-xl mx-auto mb-10 animate-fade-in opacity-0" style={{ animationDelay: "0.45s" }}>
-          Passionate about edtech, crafting seamless user journeys, driving growth, and turning insights into impactful product decisions.
+          Data-driven APM skilled in product development, GTM execution, and growth marketing. Focused on building scalable, customer-centric tech products.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in opacity-0" style={{ animationDelay: "0.55s" }}>
