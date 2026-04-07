@@ -25,7 +25,7 @@ const ContactSection = () => {
             </a>
           </Button>
           <Button variant="outline" size="lg" className="gap-2" asChild>
-            <a href="#" onClick={(e) => e.preventDefault()}>
+            <a href="/Manan_Resume.pdf" download>
               <FileDown size={18} />
               Download Resume
             </a>

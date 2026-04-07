@@ -14,7 +14,7 @@ const AboutSection = () => {
         <span className="section-label">About Me</span>
         <h2 className="section-title">A product thinker with a technical foundation</h2>
         <p className="section-subtitle mb-12">
-          Computer Science graduate from The NorthCap University, currently working as an Associate Product Manager at Adda247 — one of India's leading edtech platforms. I thrive at the intersection of user needs, business goals, and technical feasibility.
+          B.Tech CSE graduate from The NorthCap University (2021–2025), currently working as an Associate Product Manager at Adda247. Skilled in product requirements, GTM execution, and performance-driven user acquisition. I thrive at the intersection of user needs, business goals, and technical feasibility.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">

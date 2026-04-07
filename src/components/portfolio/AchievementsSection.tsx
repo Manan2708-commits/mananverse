@@ -1,9 +1,15 @@
-import { TrendingUp, Zap, Clock } from "lucide-react";
+import { TrendingUp, Zap, Clock, Trophy, Users } from "lucide-react";
 
 const achievements = [
   { icon: TrendingUp, metric: "Engagement ↑", description: "Improved user engagement through optimized journeys and content accessibility on mobile" },
   { icon: Zap, metric: "Faster Execution", description: "Reduced content update cycles by implementing structured CMS, freeing up engineering bandwidth" },
   { icon: Clock, metric: "Reduced Dependencies", description: "Enabled non-technical teams to ship content changes independently, cutting turnaround time significantly" },
+];
+
+const extras = [
+  { icon: Trophy, label: "Hospitality Core Award — Annual Cultural Fest, The NorthCap University" },
+  { icon: Users, label: "President, Club Success Mantra" },
+  { icon: Users, label: "IEEE Member" },
 ];
 
 const AchievementsSection = () => {
@@ -26,6 +32,19 @@ const AchievementsSection = () => {
               <p className="text-sm text-muted-foreground">{a.description}</p>
             </div>
           ))}
+        </div>
+
+        {/* Awards & Leadership */}
+        <div className="mt-8 card-elevated">
+          <h3 className="font-semibold mb-4">Awards & Leadership</h3>
+          <ul className="space-y-3">
+            {extras.map((e, i) => (
+              <li key={i} className="flex items-center gap-3 text-muted-foreground">
+                <e.icon size={16} className="text-primary flex-shrink-0" />
+                <span>{e.label}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>

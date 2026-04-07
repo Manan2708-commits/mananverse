@@ -1,6 +1,14 @@
-import { Smartphone, Database, ArrowRight } from "lucide-react";
+import { Smartphone, Database, Brain, Users, Mic, ArrowRight } from "lucide-react";
 
 const projects = [
+  {
+    icon: Brain,
+    title: "Cognitrack — F1 Driver Cognitive Load Analysis",
+    problem: "No reliable way to assess driver cognitive load during races, making it hard to predict high-risk scenarios.",
+    insight: "Proxies like driver errors, radio stress, and lap-time variability correlate strongly with cognitive overload.",
+    solution: "Integrated FastF1 and OpenWeatherMap APIs; built gradient-boosted regression and time-series models using Python and scikit-learn.",
+    impact: ["Detected high-risk race scenarios", "Real-time telemetry analysis", "Novel ML approach to F1 safety"],
+  },
   {
     icon: Smartphone,
     title: "PrepInsta Mobile App",
@@ -16,6 +24,22 @@ const projects = [
     insight: "Mapped the content update workflow and identified that 70%+ of requests were simple CRUD operations.",
     solution: "Led the implementation of a structured CMS using Strapi, enabling non-technical teams to manage content independently.",
     impact: ["Faster content execution cycles", "Reduced dev effort on content tasks", "Improved team autonomy & velocity"],
+  },
+  {
+    icon: Users,
+    title: "Customer Segmentation Analysis",
+    problem: "Marketing lacked actionable customer segments, leading to generic campaigns with low conversion.",
+    insight: "Behavioral and demographic features could reliably predict distinct customer groups using ML models.",
+    solution: "Applied Logistic Regression and Random Forest for segmentation; preprocessed data with normalization and encoding.",
+    impact: ["Data-driven targeting enabled", "Key segments identified", "Improved marketing & retention strategies"],
+  },
+  {
+    icon: Mic,
+    title: "Speech Emotion Recognition",
+    problem: "No automated way to detect emotions from speech for user experience and accessibility applications.",
+    insight: "MFCC audio features effectively capture emotional tone when combined with deep learning models.",
+    solution: "Built an emotion detection system using SVM and DNN, deployed via Streamlit; trained on Kaggle audio datasets.",
+    impact: ["Real-time emotion classification", "Streamlit-based interactive demo", "GPU-optimized model training"],
   },
 ];
 
