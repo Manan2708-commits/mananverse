@@ -29,7 +29,7 @@ const experiences = [
   {
     title: "Big Data Analyst (Intern)",
     company: "Brain Mentor Pvt. Ltd.",
-    location: "Gurugram, India",
+    location: "Noida, India",
     period: "May 2023 — Jul 2023",
     bullets: [
       "Gained hands-on experience with Hadoop, MapReduce, PySpark, and Pig for large-scale data processing",
