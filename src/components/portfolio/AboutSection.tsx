@@ -12,7 +12,7 @@ const AboutSection = () => {
     <section id="about" className="bg-surface-subtle">
       <div className="section-container">
         <span className="section-label">About Me</span>
-        <h2 className="section-title">A product thinker with a technical foundation</h2>
+        <h2 className="section-title">Product professional with a strong technical foundation</h2>
         <p className="section-subtitle mb-12">
           B.Tech CSE graduate from The NorthCap University (2021–2025), currently working as an Associate Product Manager at Adda247. Skilled in product requirements, GTM execution, and performance-driven user acquisition. I thrive at the intersection of user needs, business goals, and technical feasibility.
         </p>
