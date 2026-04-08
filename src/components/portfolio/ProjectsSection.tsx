@@ -2,12 +2,12 @@ import { Smartphone, Database, Brain, Users, Mic, ArrowRight } from "lucide-reac
 
 const projects = [
   {
-    icon: Brain,
-    title: "Cognitrack — F1 Driver Cognitive Load Analysis",
-    problem: "No reliable way to assess driver cognitive load during races, making it hard to predict high-risk scenarios.",
-    insight: "Proxies like driver errors, radio stress, and lap-time variability correlate strongly with cognitive overload.",
-    solution: "Integrated FastF1 and OpenWeatherMap APIs; built gradient-boosted regression and time-series models using Python and scikit-learn.",
-    impact: ["Detected high-risk race scenarios", "Real-time telemetry analysis", "Novel ML approach to F1 safety"],
+    icon: Database,
+    title: "CMS Optimization",
+    problem: "High dependency on backend engineers for routine content updates created bottlenecks and slowed time-to-market.",
+    insight: "Mapped the content update workflow and identified that 70%+ of requests were simple CRUD operations.",
+    solution: "Led the implementation of a structured CMS using Strapi, enabling non-technical teams to manage content independently.",
+    impact: ["Faster content execution cycles", "Reduced dev effort on content tasks", "Improved team autonomy & velocity"],
   },
   {
     icon: Smartphone,
@@ -18,12 +18,12 @@ const projects = [
     impact: ["Improved mobile content accessibility", "Increased student engagement", "Reduced support tickets related to mobile issues"],
   },
   {
-    icon: Database,
-    title: "CMS Optimization",
-    problem: "High dependency on backend engineers for routine content updates created bottlenecks and slowed time-to-market.",
-    insight: "Mapped the content update workflow and identified that 70%+ of requests were simple CRUD operations.",
-    solution: "Led the implementation of a structured CMS using Strapi, enabling non-technical teams to manage content independently.",
-    impact: ["Faster content execution cycles", "Reduced dev effort on content tasks", "Improved team autonomy & velocity"],
+    icon: Brain,
+    title: "Cognitrack — F1 Driver Cognitive Load Analysis",
+    problem: "No reliable way to assess driver cognitive load during races, making it hard to predict high-risk scenarios.",
+    insight: "Proxies like driver errors, radio stress, and lap-time variability correlate strongly with cognitive overload.",
+    solution: "Integrated FastF1 and OpenWeatherMap APIs; built gradient-boosted regression and time-series models using Python and scikit-learn.",
+    impact: ["Detected high-risk race scenarios", "Real-time telemetry analysis", "Novel ML approach to F1 safety"],
   },
   {
     icon: Users,
