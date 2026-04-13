@@ -7,7 +7,7 @@ const achievements = [
 ];
 
 const extras = [
-  { icon: Trophy, label: "Hospitality Core Award — Annual Cultural Fest, The NorthCap University" },
+  { icon: Trophy, label: "Core Award — Annual Cultural Fest, The NorthCap University" },
   { icon: Users, label: "President, Club Success Mantra" },
   { icon: Users, label: "IEEE Member" },
 ];
