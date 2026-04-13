@@ -24,9 +24,11 @@ const ContactSection = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="gap-2" onClick={() => setOpen(true)}>
-            <Mail size={18} />
-            Email Me
+          <Button size="lg" className="gap-2" asChild>
+            <a href={`mailto:${EMAIL}`}>
+              <Mail size={18} />
+              Email Me
+            </a>
           </Button>
           <Button variant="outline" size="lg" className="gap-2" asChild>
             <a href="https://linkedin.com/in/mananmrig" target="_blank" rel="noopener noreferrer">
